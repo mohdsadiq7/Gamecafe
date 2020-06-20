@@ -19,7 +19,7 @@ to play the games or to use it as a mini project follow the steps
 Each game has its rules
 TO play the game go to the games section and click start button and play the game.
 
-# A look of the website
+# This is how the website looks
 
 ![](images/img1.png)
 
