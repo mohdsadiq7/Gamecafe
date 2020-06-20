@@ -25,5 +25,9 @@ TO play the game go to the games section and click start button and play the gam
 
 ![](images/img2.png)
 
+![](images/img3.png)
+
+![](images/img4.png)
+
 Have fun :)
 
