@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title>Game Cafe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/head.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#games" class="w3-button w3-block w3-black">GAMES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag ">A Gaming website</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Pass Your<br>Time</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">by, MOHAMMED SADIQ</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-white w3-large">
+
+<!-- About Container -->
+<div class="w3-containe w3-white" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE GAMES</span></h5>
+    <p>This is a gaming website that comprises of small basic games that are super fun to play. The website comprises of games such as Rock-paper-scissor, Connect4, 
+        Hungry snake, Memory map, Ping pong and Flappy bird. </p>
+    <p>This website is built solely to provide entertainment by providing some cool games to pass the time. 
+        All the games are of basic level and can be played by anyone.The games are a lot of fun to play. And hope you all enjoy.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"We as gamers never Quit. We simply Restart !!"</i></p>
+      <p>- Gamer</p>
+    </div>
+    <img src="images/gamer.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container w3-sand" id="games">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide ">GAMES</span></h5>
+    <p class="w3-center">Here are the Games Which you can go ahead and play.</p>
+    <p class="w3-center">Rules are mentioned according to the games</p>
+    <p class="w3-center">Click on the play button and start the game</p>
+    <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/f4.png" alt="Rock-paper-scissor" style="width:100%" >
+      <div class="w3-container w3-white">
+        <p><b>Rock-Paper-Scissor</b></p>
+        <p>Player needs to select a choiceand compete against the computer.</p>
+        <a href="https://mohdsadiq7.github.io/Rock-Paper-Scissors/"><button class="w3-button w3-black w3-margin-bottom">Start</button></a>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/f5.png" alt="Hungry Snake" style="width:100%" >
+      <div class="w3-container w3-white">
+        <p><b>Hungry Snake</b></p>
+        <p>Direct the snake and leed it to the food shown in the grid until you loose.</p>
+        <a href="https://mohdsadiq7.github.io/Hungry-Snake/"><button class="w3-button w3-black w3-margin-bottom">Start</button></a>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/f2.png" alt="Connect4" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Connect-4</b></p>
+        <p>Dual player game where the first to arrange 4 dots will win.</p>
+        <a href="https://mohdsadiq7.github.io/Connect4/"><button class="w3-button w3-black w3-margin-bottom">Start</button></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/f1.png" alt="Ping Pong" style="width:100%" >
+      <div class="w3-container w3-white">
+        <p><b>Ping Pong</b></p>
+        <p>Traditional ping pong where user needs to compete aginst computer.</p>
+        <a href="https://mohdsadiq7.github.io/PingPong/"><button class="w3-button w3-black w3-margin-bottom">Start</button></a>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/f6.png" alt="Memory Map" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Memory Map</b></p>
+        <p>Matching the same type of objects present in the grid to complete game.</p>
+        <a href="https://mohdsadiq7.github.io/MemoryMapGame/"><button class="w3-button w3-black w3-margin-bottom">Start</button></a>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/f3.png" alt="Flappy Bird" style="width:100%">
+      <div class="w3-container w3-white">
+        <p><b>Flappy Bird</b></p>
+        <p>Navigate the bird through the irregular pipes placed in the game.</p>
+        <a href="https://mohdsadiq7.github.io/Flappy-Bird/"><button class="w3-button w3-black w3-margin-bottom">Start</button></a>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container w3-light-grey" id="where" style="padding-top: 8px;">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-8"><span class="w3-tag w3-wide">CONTACT</span></h5>
+      <p class="w3-center">For any queries or improvements in the games do drop a Email.</p>
+      <h6 class="w3-center"><span class="w3-button w3-blue w3-wide">mohammedsadiqsadiq333@gmail.com</span></h6>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-center w3-margin-top w3-padding-48">
+        <h3>Follow me on</h3>
+        <a class="w3-button w3-xlarge " href="https://www.linkedin.com/in/mohammed-sadiq-300160186/" title="linkedin"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a class="w3-button w3-xlarge " href="https://instagram.com/mo._.sadiq" title="instagram"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a class="w3-button w3-xlarge " href="https://github.com/mohdsadiq7" title="github"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a class="w3-button w3-xlarge " href="https://silly-engelbart-0cbcec.netlify.app" title="website"><i class="fa fa-globe w3-hover-opacity"></i></a>
+      </footer>
+
+    
+    
+    <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+      <span class="w3-text w3-padding w3-black">Go To Top</span>   
+      <a class="w3-button w3-theme" href="#home"><span class="w3-xlarge">
+      <i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+  </footer>
+
+</body>
+</html>
